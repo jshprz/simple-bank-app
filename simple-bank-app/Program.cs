@@ -16,7 +16,7 @@ namespace ObjectOrientedCSharp
             Console.WriteLine(account.GetAccountHistory());
 
 
-            // Test for a negative balance:
+            // Test for withdrawal:
             try
             {
                 account.MakeWithdrawal(100, DateTime.Now, "Attempt to overdraw");
